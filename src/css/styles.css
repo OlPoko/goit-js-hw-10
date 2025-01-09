@@ -16,3 +16,51 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+/* Стилі для контейнера таймера */
+.container {
+  text-align: left;
+  padding: 10px;
+
+}
+.timer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px; /* Відстань між блоками часу */
+  margin-top: 20px;
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  color: #333;
+}
+.input-date {
+  font-size: 24px;
+  width: auto;
+  
+}
+
+.button {
+  font-size: 24px;
+}
+/* Стилі для кожного блоку часу */
+.field {
+  display: flex;
+  flex-direction: column; /* Відображення цифри над текстом */
+  align-items: center;
+  padding: 10px;
+}
+
+/* Стилі для значень часу (цифр) */
+.value {
+  font-size: 36px;
+  color: #2c3e50;
+  margin-bottom: 6px; /* Відступ між цифрою і текстом */
+}
+
+/* Стилі для підпису часу (днів, годин тощо) */
+.label {
+  font-size: 14px;
+  color: #555;
+  text-transform: uppercase;
+}
+
